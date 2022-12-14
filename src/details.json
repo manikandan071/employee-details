@@ -1,0 +1,29 @@
+[
+    {
+        "username":"ranjith",
+        "mailid":"rajaranjith123@gmail.com",
+        "address":"dharmapuri",
+        "number":"8526664389",
+        "gender":"male",
+        "dob":"1998-5-20",
+        "pincode":"636502"
+    },
+    {
+        "username":"manikandan",
+        "mailid":"manidhiyamech@gmail.com",
+        "address":"salem",
+        "number":"6369982019",
+        "gender":"male",
+        "dob":"1998-5-15",
+        "pincode":"636501"
+    },
+    {
+        "username":"ramm sanker",
+        "mailid":"rammsanker111@gmail.com",
+        "address":"madhurai",
+        "number":"8526664389",
+        "gender":"male",
+        "dob":"1998-6-08",
+        "pincode":"636602"
+    }
+]

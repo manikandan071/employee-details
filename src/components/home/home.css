@@ -1,0 +1,46 @@
+.nav-bar-sec{
+    border-bottom:1px solid #f0f0f0 ;
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+}
+.nav-bar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar .title{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+.employee-table{
+    margin-top: 30px;
+}
+.detail-btn{
+    background-color: rgb(136 173 87 / 81%);
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 19px;
+    color: #fff;
+}
+.detail-btn:hover{
+    background-color: rgb(99 117 75 / 81%);
+    transition: all 0.5s ease;
+}
+.login-btn{
+    background-color: rgb(10 122 209 / 79%);
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    padding: 6px 18px;
+    border-radius: 5px;
+}
+.login-btn:hover{
+    background-color: rgb(10 122 209);
+    transition: all 0.5s ease;
+}

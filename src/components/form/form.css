@@ -1,0 +1,101 @@
+.form-sec{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 100px 0;
+}
+.user-form{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 10px 20px 25px rgba(0,0,0,.3);
+    overflow: hidden;
+    max-width: 100%; 
+    width: 600px;
+}
+.header{
+    border-bottom:1px solid #f0f0f0 ;
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+}
+.header h2{
+    margin: 0;
+    text-align: center;
+}
+.form{
+    padding: 30px 40px;
+}
+.user-form-control{
+    padding-bottom:25px;
+    position: relative;
+}
+.user-form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.user-form-control input{
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    margin: 0 !important;
+}
+.user-form-control input:hover{
+    outline: none;
+    border-color: #b19fde;
+}
+.form button{
+    background-color: rgb(10, 209, 26);
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form .login-btn{
+    background-color: rgb(10 122 209 / 79%);
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form .login-btn:hover{
+    background-color: rgb(10 122 209);
+    transition: all 0.5s ease;
+}
+.user-form-control span{
+    color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+.gender{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom:20px;
+}
+.gender input{
+    margin: 0 10px;
+}
+.gender label{
+    font-size: 20px;
+}
+#gender-error{
+    color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+}
